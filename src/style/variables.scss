@@ -1,0 +1,29 @@
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1024px;
+$xxl: 1900px;
+
+$screen-xs-max: ($sm - 1);
+
+$screen-sm-min: $sm;
+$screen-sm-max: ($md - 1);
+
+$screen-md-min: $md;
+$screen-md-max: ($lg - 1);
+
+$screen-lg-min: $lg;
+$screen-lg-max: ($xl - 1);
+
+$screen-xl-min: $xl;
+$screen-xl-max: ($xl + 1);
+
+$screen-xxl-min: $xxl;
+
+$media_mobile_only: "only screen and (max-width : #{$screen-sm-max})";
+
+$media_tablet_down: "only screen and (max-width : #{$screen-md-max})";
+$media_tablet_up: "only screen and (min-width : #{$screen-md-min})";
+$media_tablet_only: "only screen and (max-width : #{$screen-md-max}) and (min-width : #{$screen-md-min})";
+
+$media_desktop_up: "only screen and (min-width : #{$screen-lg-min})";
